@@ -15,7 +15,7 @@ function login() {
     if (getUserString) {
         getUser = JSON.parse(getUserString);
     }
-//user authentication
+//user authentication...........ok
     let userIndex =   getUser.findIndex(function(value) {
         return value.email === email && value.password === password;
     });
